@@ -1,20 +1,18 @@
 <!--  -->
 <template>
-  <div class=''>
-    <nav-header></nav-header>
+  <div class='header'>
+    <div class="icon"></div>
+    <h1 class="text">liunan music</h1>
   </div>
 </template>
 
 <script>
-import NavHeader from '@/components/NavHeader'
+
 export default {
   data () {
     return {
 
     }
-  },
-  components: {
-    NavHeader
   }
 }
 </script>
